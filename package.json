@@ -1,6 +1,6 @@
 {
   "name": "skeleton-web-server-app",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Proyecto web server node preparado para desplegar aplicación de React.js, Vue.js y Angular.",
   "main": "index.js",
   "scripts": {

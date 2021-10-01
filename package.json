@@ -4,9 +4,10 @@
   "description": "Proyecto web server node preparado para desplegar aplicación de React.js, Vue.js y Angular.",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node build/index.js",
-    "dev": "nodemon src/index.ts",
-    "build": "tsc"
+    "start": "node ./build/index.js",
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
